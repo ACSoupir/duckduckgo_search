@@ -37,7 +37,7 @@ class DDGS:
         proxy: str | None = None,
         proxies: dict[str, str] | str | None = None,  # deprecated
         timeout: int | None = 10,
-        verify: bool = True,
+        verify: bool = False,
     ) -> None:
         """Initialize the DDGS object.
 
